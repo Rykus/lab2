@@ -1,0 +1,23 @@
+.primer-class{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.divizion{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);  
+}
+.cabesa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    
+}
+.adobe{
+    width: 25px;
+}
+.buscador{
+   
+}
