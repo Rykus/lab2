@@ -1,3 +1,8 @@
+html,body{
+    margin:0;
+    background-color: blanchedalmond;
+}
+
 .primer-class{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -5,19 +10,158 @@
 .divizion{
     display: grid;
     grid-template-columns: repeat(3, 250px);  
+    }
+.fondoto {
+    background-image: url(/fondo1.jpg);
+    height: 300px;
 }
 .cabesa{
+    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-
-    
+    width: 100%;;
+    background-color: transparent ;
+  }
+.nav1{
+    margin: 0px;
+    color: rebeccapurple;
+    text-decoration: none;
+    font-weight:bolder;
+    size: 20px;
+}
+.ale{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+       
 }
 .adobe{
-    width: 25px;
+    width: 20px;
 }
 .buscador{
+    width: 200px;
+    border-radius: 20px;
+}
+.adobito{
+    color: rebeccapurple;
+    text-decoration: none;
+    font-weight:bolder;
+    size: 20px;
+}
+.tarjeta1{
+    position: relative;
+    top: -100px;
+    border: 3px solid #222;
+    background-image: url(/fondo2.jpg);
+    background-size: no-repeat;
+    width: 400px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.badfox{
+    margin-top: 15px;
+    border-radius: 50%;
+}
+.titulo1{
+    display: flex;
+    justify-content: center;
+}
+.titulo2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    color: grey;
+    text-decoration: none;
+
+}
+.link{
+    color: rgb(153, 121, 51);
+    text-decoration: none;
+    font-weight: bolder;
+    ;
+}
+.iconosseguir{
+    display: grid;
+    justify-items:center;
+    text-justify: distribute;
+    width: 300px;
+    color: grey;
+    text-decoration: none;
+}
+.botonsito{
+    width: 150px;
+    background-color:teal;
+    color: white;
+    border-radius: 25px;
+    text-align: none;
+    text-align: center;
+}
+.botonsitoV{
+    width: 150px;
+    background-color:rgb(161, 232, 232);
+    color: rgb(87, 74, 186);
+    border-radius: 25px;
+    text-align: none;
+    text-align: center;
+}
+.tabladatos{
+    width: 250px;
+    font: bolder;
+    }
+.butonsitoV2{
+    width: 150px;
+    background-color:rgb(180, 206, 245);
+    color: rgb(91, 2, 255);
+    border-radius: 50px;
+    text-align: none;
+    text-align: center;
+}
+.butonsitoV3{
+    width: 250px;
+    background-color:rgb(243, 243, 243);
+    color: rgb(128, 126, 132);
+    text-align: center;
+    border: 2px solid;
+    border-color: #222;
+}
+.cajaherramienta{
+    width: 350px;
+    background-color:rgb(243, 243, 243);
+    color: rgb(128, 126, 132);
+    border: 2px solid;
+    text-align: center;
+    border-color: #222;
+    padding: 10px;
+}
+.zoyespecial{
+    text-align: left;
+    font-size: 15px;
+}
+.butonsitoV4{
    
+    background-color:rgb(221, 0, 107);
+    color: rgb(128, 126, 132);
+    border: 2px solid;
+    border-color: #222;
+}
+#fondo{
+    position:relative;
+    right:200px;
+    max-width: 100%;
+    width:100%;
+    background-color: transparent;
+}
+#repartir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    
 }
